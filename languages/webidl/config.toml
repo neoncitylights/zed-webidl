@@ -1,0 +1,11 @@
+name = "WebIDL"
+grammar = "webidl"
+path_suffixes = ["webidl", "idl"]
+# block_comment = ["{{!", "}}"]
+autoclose_before = "}"
+brackets = [
+	{ start = "<", end = ">", close = false, newline = true, not_in = [
+		"comment",
+	] },
+	{ start = "{", end = "}", close = true, newline = true },
+]

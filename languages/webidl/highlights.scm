@@ -18,8 +18,12 @@
 	"namespace"
 	"optional"
 	"or"
+	"partial"
 	"readonly"
 	"required"
 	"typedef"
 	"undefined"
 ] @keyword
+
+(constructor_member
+	"constructor" @constructor)

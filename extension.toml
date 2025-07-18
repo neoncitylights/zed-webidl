@@ -8,4 +8,4 @@ repository = "https://github.com/neoncitylights/zed-webidl"
 
 [grammars.webidl]
 repository = "https://github.com/neoncitylights/tree-sitter-webidl"
-rev = "5dd356f957d35735dccc5171f598080482aceeb7"
+rev = "7f5a46d456461784e6ad4777d29a8ec8da4c6761"

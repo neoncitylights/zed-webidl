@@ -70,7 +70,7 @@
 ] @punctuation.delimiter
 
 (enum_definition
-	name: (type_identifier) @enum)
+	name: (_) @enum)
 
 (attribute_member
 	name: (_) @property)

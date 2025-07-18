@@ -33,10 +33,28 @@
 	"namespace" @context
 	name: (_) @name) @item
 
+(attribute_member
+	"readonly"? @context
+	"attribute" @context
+	type: (_) @context
+	name: (_) @name) @item
+
 (const_member
 	"const" @context
 	type: (_) @context.extra
 	name: (_) @name
 	"=" @context.extra
-	value: (_) @context.extra
-	";" @context.extra) @item
+	value: (_) @context.extra) @item
+
+(dictionary_member
+	"required"? @context.extra
+	type: (_) @context.extra
+	name: (_) @name
+	default_value: (_)? @context.extra) @item
+
+(mixin_operation_member
+	name: (_) @name) @item
+
+(operation_member
+	name: (_) @name
+	arguments: (_) @context.extra) @item

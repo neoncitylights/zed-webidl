@@ -3,7 +3,7 @@
 
 WebIDL syntax highlighting support for [Zed](https://github.com/zed-industries/zed).
 
-- Tree-sitter: [neoncitylights/tree-sitter-webidl](https://github.com/TheLeoP/tree-sitter-webidl)
+- Tree-sitter: [neoncitylights/tree-sitter-webidl](https://github.com/neoncitylights/tree-sitter-webidl)
 - GitHub repository: [whatwg/webidl](https://github.com/whatwg/webidl)
 - Specification: [webidl.spec.whatwg.org](https://webidl.spec.whatwg.org)
 
